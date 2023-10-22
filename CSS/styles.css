@@ -21,6 +21,7 @@
   --Cornflower: #e7e9fc;
   --SLATE: #434455;
   --lightslate: #8e8f99;
+  --ocean: #404bbf;
 
   /* Navigational links CSS */
 }
@@ -59,12 +60,41 @@
   color: black;
   font-size: 16px;
   padding-right: 20px;
+  padding-bottom: 20px;
 }
 .link:hover {
   color: gray;
 }
 .link2:hover {
   color: gray;
+}
+.link:active {
+  color: var(--ocean);
+  border-bottom: 5px solid var(--ocean);
+  border-radius: 2px;
+  width: 100%;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.link2:active {
+  color: var(--ocean);
+  border-bottom: 5px solid var(--ocean);
+  border-radius: 2px;
+  width: 100%;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.active {
+  color: var(--ocean);
+  border-bottom: 5px solid var(--ocean);
+  border-radius: 2px;
+  width: 100%;
+  display: inline-flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .headerlinks-left {
